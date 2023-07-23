@@ -1,0 +1,271 @@
+// antiword.MMP
+//
+// Copyright (c) 1997-1999 Symbian Ltd.  All rights reserved.
+//
+
+TARGET			antiword.exe
+
+TARGETTYPE		exe
+
+UID             0x01000a00 0
+UNICODEUID      0x01100a00 0
+
+PROJECT			psiconv
+
+SUBPROJECT		antiword
+
+SOURCE asc85enc.c
+# End Source File
+# Begin Source File
+
+SOURCE blocklis.c
+# End Source File
+# Begin Source File
+
+SOURCE chartran.c
+# End Source File
+# Begin Source File
+
+SOURCE datalist.c
+# End Source File
+# Begin Source File
+
+SOURCE depot.c
+# End Source File
+# Begin Source File
+
+SOURCE dib2eps.c
+# End Source File
+# Begin Source File
+
+SOURCE fail.c
+# End Source File
+# Begin Source File
+
+SOURCE finddata.c
+# End Source File
+# Begin Source File
+
+SOURCE findtext.c
+# End Source File
+# Begin Source File
+
+SOURCE fontlist.c
+# End Source File
+# Begin Source File
+
+SOURCE fonts.c
+# End Source File
+# Begin Source File
+
+SOURCE fonts_u.c
+# End Source File
+# Begin Source File
+
+SOURCE getopt.c
+# End Source File
+# Begin Source File
+
+SOURCE imgexam.c
+# End Source File
+# Begin Source File
+
+SOURCE imgtrans.c
+# End Source File
+# Begin Source File
+
+SOURCE jpeg2eps.c
+# End Source File
+# Begin Source File
+
+SOURCE listlist.c
+# End Source File
+# Begin Source File
+
+SOURCE main_u.c
+# End Source File
+# Begin Source File
+
+SOURCE misc.c
+# End Source File
+# Begin Source File
+
+SOURCE notes.c
+# End Source File
+# Begin Source File
+
+SOURCE options.c
+# End Source File
+# Begin Source File
+
+SOURCE out2wind.c
+# End Source File
+# Begin Source File
+
+SOURCE output.c
+# End Source File
+# Begin Source File
+
+SOURCE pictlist.c
+# End Source File
+# Begin Source File
+
+SOURCE png2eps.c
+# End Source File
+# Begin Source File
+
+SOURCE postscri.c
+# End Source File
+# Begin Source File
+
+SOURCE prop0.c
+# End Source File
+# Begin Source File
+
+SOURCE prop2.c
+# End Source File
+# Begin Source File
+
+SOURCE prop6.c
+# End Source File
+# Begin Source File
+
+SOURCE prop8.c
+# End Source File
+# Begin Source File
+
+SOURCE properti.c
+# End Source File
+# Begin Source File
+
+SOURCE propmod.c
+# End Source File
+# Begin Source File
+
+SOURCE rowlist.c
+# End Source File
+# Begin Source File
+
+SOURCE sectlist.c
+# End Source File
+# Begin Source File
+
+SOURCE stylelis.c
+# End Source File
+# Begin Source File
+
+SOURCE styleshe.c
+# End Source File
+# Begin Source File
+
+SOURCE summary.c
+# End Source File
+# Begin Source File
+
+SOURCE tabstop.c
+# End Source File
+# Begin Source File
+
+SOURCE text.c
+# End Source File
+# Begin Source File
+
+SOURCE unix.c
+# End Source File
+# Begin Source File
+
+SOURCE utf8.c
+# End Source File
+# Begin Source File
+
+SOURCE word2tex.c
+# End Source File
+# Begin Source File
+
+SOURCE worddos.c
+# End Source File
+# Begin Source File
+
+SOURCE wordlib.c
+# End Source File
+# Begin Source File
+
+SOURCE wordmac.c
+# End Source File
+# Begin Source File
+
+SOURCE wordole.c
+# End Source File
+# Begin Source File
+
+SOURCE wordwin.c
+# End Source File
+# Begin Source File
+
+SOURCE xmalloc.c
+# End Source File
+# Begin Source File
+
+SOURCE xml.c
+
+SYSTEMINCLUDE  \epoc32\include\libc  \epoc32\include
+
+#if defined(MARM)
+LIBRARY			ecrt0.o
+#else
+LIBRARY			ecrt0.obj
+#endif
+
+LIBRARY			estlib.lib euser.lib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
